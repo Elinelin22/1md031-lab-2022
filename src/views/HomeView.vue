@@ -55,4 +55,7 @@ export default {
     height: 300px;
     background-color: red;
   }
+  #map:hover{
+    background-color: pink;
+  }
 </style>

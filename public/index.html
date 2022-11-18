@@ -1,47 +1,55 @@
 <!DOCTYPE HTML>
 <html lang="en">
-   <head>
-       <title>BurgerOnline</title>
+   <head> 
+       <title>BurgersByElin</title>
        <meta charset="utf-8"/>
+       <link rel="stylesheet" type="text/css" href="style.css">
    </head>
    <body>
-        <header>
-        <h1 style="text-align: center;">
-            Välkommen till BurgerOnline
+        <header id="välkommen">
+
+        <img id="bild1" src = "https://www.cornerhouserestaurants.co.uk/templates/yootheme/cache/homepage-07-b0e63288.jpeg"
+        alt = Restarang title = Restaurang >
+
+        <h1 id="BbE" style="text-align: center;">
+            Välkommen till Burgers by Elin
         </h1>
         </header>
         <main> 
-            <section>
+            <section id="burgare">
                 <h2> Välj en hamburgare</h2>
                 <p> Här väljer du din meny</p>
-                <div>
-                <div style="display: inline-block;">
+                <div class="wrapper">
+                <div class="box">
                     
-                <h3> Halloumiburgare</h3>
-                    <img src = "https://www.max.se/contentassets/bd97342be78047eb8f8026452d545538/product_halloumiburgare2.png?width=1160&sharpen=5&sigma=1,4&threshold=0"
-                    alt = Halloumiburgare title = Halloumi style="width:200px;height:200px;">
+                <h3> Hot Halloumi</h3>
+                <p> Som en eld </p>
+                    <img id="burgarebild" src = "https://www.max.se/contentassets/bd97342be78047eb8f8026452d545538/product_halloumiburgare2.png?width=1160&sharpen=5&sigma=1,4&threshold=0"
+                    alt = Halloumiburgare title = Halloumi >
                     <ul>
                         <li>gluten</li>
                         <li>laktos</li>
-                        <li>nötter</li>
+                        <li><div class="allergi"> nötter</div></li>
                     </ul>
 
                 </div>
-                <div style="display: inline-block;">
-                    <h3> Orginalburgare</h3>
-                        <img src = https://www.max.se/contentassets/1fdf0ed6657c4de8a5a89751b81bb875/product_hamburgare.png?width=1160&sharpen=5&sigma=1,4&threshold=0
-                        alt = Orginalburgare title = Orginal style="width:200px;height:200px;">
+                <div class="box">
+                    <h3> Basic Burger</h3>
+                    <p> En vanlig burgare</p>
+                        <img id="burgarebild" src = https://www.max.se/contentassets/1fdf0ed6657c4de8a5a89751b81bb875/product_hamburgare.png?width=1160&sharpen=5&sigma=1,4&threshold=0
+                        alt = Orginalburgare title = Orginal >
                         <ul>
-                            <li>kött</li>
-                            <li>kött</li>
+                            <li>gluten</li>
+                            <li><div class="allergi"> laktos</div></li>
                             <li>kött</li>
                         </ul>
     
                     </div>
-                    <div style="display: inline-block;">
-                        <h3> Cheeseburgare</h3>
-                            <img src = https://www.max.se/contentassets/2c64a1d06cc64c9284fbfbca16d37f59/product_cheeseburgare.png?width=1160&sharpen=5&sigma=1,4&threshold=0
-                            alt = Cheeseiburgare title = cheese style="width:200px;height:200px;">
+                    <div class="box">
+                        <h3> Cheesy Cheese</h3>
+                        <p> Ost ost och mera ost</p>
+                            <img id="burgarebild" src = https://www.max.se/contentassets/2c64a1d06cc64c9284fbfbca16d37f59/product_cheeseburgare.png?width=1160&sharpen=5&sigma=1,4&threshold=0
+                            alt = Cheeseiburgare title = cheese >
                             <ul>
                                 <li>gluten</li>
                                 <li>laktos</li>
@@ -52,7 +60,8 @@
                         </div>
                     </div>
             </section>
-            <section>
+            <section id ="kundinfo" >
+            <form>
                 <h2> Kundinformation</h2>
                 <p> Fyll i nödvändig information</p>
                 <p>
@@ -96,17 +105,16 @@
                     <label for="kön">Vill ej ange</label><br>
 
                 </p>
-              
-
+                <button id="knapp" type="submit">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsVT9S7HIeAKx-np1Vif3R40CIHY1BYEKcNA&usqp=CAU"
+                    alt = order title = order style="width:150px;height:45px;">
+                </button>
+            </form>
             </section>
-            <button type="submit">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsVT9S7HIeAKx-np1Vif3R40CIHY1BYEKcNA&usqp=CAU"
-                alt = order title = order style="width:150px;height:45px;">
-            </button>
         </main>
         <footer>
             <hr>
-            &copy 2022 Elin Burgers AB 
+            &copy 2022 Burgers By Elin AB 
         </footer>
    </body>
 </html>
