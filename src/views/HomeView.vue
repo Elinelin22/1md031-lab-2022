@@ -98,7 +98,7 @@
 <script>
 import Burger from '../components/OneBurger.vue'
 import io from 'socket.io-client'
-import menu from '../assets/menu.json'
+import menu from '../assets/menu.json' 
 
 const socket = io();
 
