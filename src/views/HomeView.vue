@@ -276,7 +276,7 @@ body{
   #map {
     width: 1920px;
     height: 1078px;
-    background: url("/Users/elineckervald/Documents/grännssnitt/1md031-lab-2022/public/img/polacks.jpg");
+    background: url("../../public/img/polacks.jpg");
     cursor: pointer;
     position: absolute;
 
